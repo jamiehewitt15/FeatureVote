@@ -1,0 +1,8 @@
+[
+    { "page_url": "/predictable/", "page_name": "Predictable", "admin_email": "", "password": "", "image_url": "https://therapy-box.co.uk/static/predictable_icon-de08b97f79eec0b5a73ae0541d797117.png", "website_url": "https://therapy-box.co.uk/predictable"}, 
+    { "page_url": "/solaranalytics/", "page_name": "Solar Analytics", "admin_email": "", "password": "", "image_url": "https://www.solaranalytics.com/sites/default/files/base/logo.png", "website_url": "https://www.solaranalytics.com" }, 
+    { "page_url": "/sceneandheard/", "page_name": "Scene and Heard", "admin_email": "", "password": "", "image_url": "https://therapy-box.co.uk/static/scene_and_heard_icon-f6c450b3ebea7e1e1e3aa726bf6d98e9.png", "website_url": "https://therapy-box.co.uk/scene_and_heard" },
+    { "page_url": "/chatable/", "page_name": "Chatable", "admin_email": "", "password": "", "image_url": "https://therapy-box.co.uk/static/chatable_logo-63ebe9077433c044787564d270281381.png", "website_url": "https://therapy-box.co.uk/chatable" }, 
+    { "page_url": "/yum/", "page_name": "Yum", "admin_email": "", "password": "", "image_url": "https://cdn-images-1.medium.com/fit/c/200/200/1*F71qR0FttntUj5DAxRb1KQ.png", "website_url": "http://yum.co.ke" }, 
+    { "page_url": "/turnup/", "page_name": "Turn Up", "admin_email": "", "password": "", "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAgFbxJSkdcRR-Bhk7n8rwqz206V4cO5rYhSgasy-fp-kt0dTW", "website_url": "https://turnup.yum.co.ke" }
+]
