@@ -1,30 +1,37 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import { Card, Typography, PageHeader} from "antd";
+import layout from "../components/layout";
 
+const { Title } = Typography;
 
 export default ({ data }) => {
- console.log(data.allCardsJson.edges)
+ 
   return (
-    
+    <Layout>
       <div>
+        
         {data.allPagesJson.edges.map(({ node }) => (
             <div key={node.id}>
+              
                 <img src={node.image_url}></img>
-                <h1>How do you think {node.page_name} could be improved?</h1>
+                <Title>How do you think {node.page_name} could be improved?</Title>
                 You can find out more about {node.page_name} here: 
                 <a href={node.website_url}> {node.page_name} Website</a>
-
-            </div>
+                
+              </div>
           ))}
+          
           <h3>Here are some suggestions from other users:</h3>
             {data.allCardsJson.edges.map(({ node }) => (
-            <div key={node.id}>
+            <Card key={node.id}>
                 <p>{node.card_text} - Score <b>{node.card_score}</b></p>
-            </div>
+            </Card>
           ))}
-            
+           
       </div>
-    
+    </Layout>
   )
 }
 

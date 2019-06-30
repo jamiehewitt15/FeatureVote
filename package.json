@@ -13,7 +13,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "antd": "^3.20.0",
     "gatsby": "^2.10.0",
+    "gatsby-plugin-antd": "^2.0.2",
     "gatsby-source-filesystem": "^2.1.0",
     "gatsby-source-mongodb": "^2.1.0",
     "gatsby-transformer-json": "^2.2.0",
