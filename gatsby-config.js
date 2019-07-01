@@ -7,10 +7,10 @@ module.exports = {
   },
   plugins: [
     
-    
+    'gatsby-plugin-antd',
     `gatsby-transformer-json`,
     {
-      resolve: 'gatsby-plugin-antd',
+      
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,

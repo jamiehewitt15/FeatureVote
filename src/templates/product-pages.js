@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Card, Typography, PageHeader} from "antd";
-import layout from "../components/layout";
+import { Card, Typography } from "antd";
+
 
 const { Title } = Typography;
 
@@ -25,7 +25,7 @@ export default ({ data }) => {
           
           <h3>Here are some suggestions from other users:</h3>
             {data.allCardsJson.edges.map(({ node }) => (
-            <Card key={node.id}>
+            <Card key={node.id} style={{ background: "#F9F9FB", margin: 10 }}>  
                 <p>{node.card_text} - Score <b>{node.card_score}</b></p>
             </Card>
           ))}
